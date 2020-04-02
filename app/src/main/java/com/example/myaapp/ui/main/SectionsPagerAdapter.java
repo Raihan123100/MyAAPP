@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.myaapp.R;
 import com.example.myaapp.TabOne;
+import com.example.myaapp.TabTwo;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -40,8 +41,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return  tabOne;
 
             case 1:
-                TabOne tabOne1=new TabOne();
-                return  tabOne1;
+                TabTwo tabtwo=new TabTwo();
+                return  tabtwo;
             default:
                 return  null;
 
